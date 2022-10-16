@@ -6,7 +6,7 @@
 В каждом файле по 1000 частотных слов.
 
 ### Визуальная часть приложения:
-![typing-speed-test-gif](https://github.com/slychagin/typing-speed-test/blob/master/gifs/app_ui.gif)
+![typing-speed-test-gif](https://github.com/slychagin/typing-speed-test/blob/master/app_ui.gif)
 
 ### Технологии:
 - Python 3, Tkinter.
