@@ -15,7 +15,7 @@ data_words = []
 proper_words = 0
 error_words = 0
 word = 1
-type_timer = 5
+type_timer = 60
 timer = ''
 
 
@@ -31,7 +31,7 @@ def set_text(*args, file):
         data = csv.reader(data_file)
         data_words = [''.join(row).strip() for row in data]
         random.shuffle(data_words)
-        text = '\n'.join(data_words[:200]).strip()
+        text = '\n'.join(data_words[:200]).strip().lower()
         return text
 
 
